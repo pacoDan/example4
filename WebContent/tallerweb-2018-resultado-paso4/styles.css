@@ -1,0 +1,71 @@
+
+.encabezado {
+	display: flex;
+	flex-direction: row;
+	border-bottom: solid 1px darkred;
+}
+
+.encabezado h1 {
+	flex-grow: 1;
+}
+
+.tablas {
+	display: flex;
+	flex-direction: row;
+}
+
+.tablas table {
+	margin: 10px;
+}
+
+.tablas table.oculta {
+	display: none;
+}
+
+td.nombre-grupo {
+	font-family: "Helvetica";
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+td.equipo {
+	font-family: "Helvetica";
+	font-size: 14px;
+	padding: 0 20px;
+}
+
+td.bandera img {
+	width: 24px;
+	height: 24px;
+}
+
+.tips-area {
+	width: 100%;
+	min-height: 48px;
+	background-color: lightpink;
+    padding: 10px;		
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.tips-area > .loading-indicator {
+	width: 100%;
+	height: 64px;
+	background-image: url('loading.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 48px 48px;
+}
+
+.tips-area > .tip {
+	font-family: Arial;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+}
+
+.tips-area > .loading-indicator.oculta,
+.tips-area > .tip.oculta {
+	display: none;
+}

@@ -1,0 +1,60 @@
+Cheatsheet 
+----------------------
+
+HTML
+-------------
+html
+head
+title
+body
+h1..h5
+table
+	- attr "id"
+	- attr "border"
+tr
+td
+	- attr "colspan"
+img
+	- attr src
+
+
+div
+link
+	- rel
+	- type
+	- src
+
+
+input
+	-type: checkbox
+	-onclick
+label
+
+
+CSS
+--------------
+display (flex|none)
+flex-direction (row|column)
+flex-grow (1)
+font-family
+font-size
+color
+padding
+width
+height
+border-bottom
+
+
+DOM API
+--------------------
+document.getElementById
+document.querySelectorAll()
+[array].forEach(item)
+[element].classList
+	- toggle(<clase>, <force>)
+[element].setAttribute()
+[element].removeAttribute()
+[element].innerHTML = xxx
+
+
+
